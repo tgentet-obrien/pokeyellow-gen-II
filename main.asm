@@ -698,6 +698,8 @@ MewtwoPicFront::      INCBIN "gfx/pokemon/front/mewtwo.pic"
 MewtwoPicBack::       INCBIN "gfx/pokemon/back/mewtwob.pic"
 MewPicFront::         INCBIN "gfx/pokemon/front/mew.pic"
 MewPicBack::          INCBIN "gfx/pokemon/back/mewb.pic"
+KarenPicFront::       INCBIN "gfx/pokemon/front/karen.pic"
+KarenPicBack::        INCBIN "gfx/pokemon/back/karenb.pic"
 
 
 SECTION "bank42", ROMX, BANK[$42]

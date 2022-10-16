@@ -1,4 +1,4 @@
-mon_cry: MACRO
+MACRO mon_cry
 	db (\1 - CRY_SFX_START) / 3
 	db \2, \3
 ENDM
@@ -196,4 +196,5 @@ CryData::
 	mon_cry SFX_CRY_21, $55, $01 ; Bellsprout
 	mon_cry SFX_CRY_25, $44, $20 ; Weepinbell
 	mon_cry SFX_CRY_25, $66, $CC ; Victreebel
+	mon_cry SFX_CRY_25, $66, $CC ; Karen
 	assert_table_length NUM_POKEMON_INDEXES
