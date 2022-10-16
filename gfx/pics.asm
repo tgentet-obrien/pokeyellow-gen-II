@@ -156,6 +156,8 @@ TentacruelPicFront::  INCBIN "gfx/pokemon/front/tentacruel.pic"
 TentacruelPicBack::   INCBIN "gfx/pokemon/back/tentacruelb.pic"
 GeodudePicFront::     INCBIN "gfx/pokemon/front/geodude.pic"
 GeodudePicBack::      INCBIN "gfx/pokemon/back/geodudeb.pic"
+; KarenPicFront::       INCBIN "gfx/pokemon/front/mew.pic"
+; KarenPicBack::        INCBIN "gfx/pokemon/back/mewb.pic"
 
 
 SECTION "Pics 4", ROMX

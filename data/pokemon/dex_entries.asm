@@ -30,7 +30,7 @@ PokedexEntryPointers:
 	dw BlastoiseDexEntry
 	dw PinsirDexEntry
 	dw TangelaDexEntry
-	dw MissingNoDexEntry
+	dw KarenDexEntry
 	dw MissingNoDexEntry
 	dw GrowlitheDexEntry
 	dw OnixDexEntry
@@ -191,7 +191,8 @@ PokedexEntryPointers:
 	dw WeepinbellDexEntry
 	dw VictreebelDexEntry
 	dw MissingNoDexEntry
-	dw KarenDexEntry
+	; dw KarenDexEntry
+
 	assert_table_length NUM_POKEMON_INDEXES
 
 ; string: species name
@@ -1260,7 +1261,7 @@ KarenDexEntry:
 	db "NEW SPECIE@"
 	db 99, 6
 	dw 999
-	text_far _MewDexEntry
+	text_far _KarenDexEntry
 	text_end
 
 MissingNoDexEntry:

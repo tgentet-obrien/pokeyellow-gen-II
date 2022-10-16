@@ -1,6 +1,5 @@
 MonsterPalettes:
 	table_width 1, MonsterPalettes
-	db PAL_MEWMON    ; MISSINGNO
 	db PAL_BULBASAUR
 	db PAL_IVYSAUR
 	db PAL_VENUSAUR
@@ -153,7 +152,7 @@ MonsterPalettes:
 	db PAL_MEWTWO
 	db PAL_MEW
 	db PAL_KAREN
-	assert_table_length NUM_POKEMON + 1
+	assert_table_length NUM_POKEMON
 
 TrainerPalettes:
 	db PAL_HERO

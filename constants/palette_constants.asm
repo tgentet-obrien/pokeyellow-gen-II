@@ -226,7 +226,6 @@ SET_PAL_DEFAULT EQU $ff
 	const PAL_DRAGONITE  ; $BC
 	const PAL_MEWTWO     ; $BD
 	const PAL_MEW        ; $BE
-	const PAL_KAREN
 	const PAL_YOUNGSTER     ; $BF
 	const PAL_BUGCATCHER    ; $C0
 	const PAL_LASS          ; $C1
@@ -275,4 +274,6 @@ SET_PAL_DEFAULT EQU $ff
 	const PAL_AGATHA        ; $EC
 	const PAL_LANCE         ; $ED
 	const PAL_HERO          ; $EE
+	const PAL_KAREN
+
 NUM_SGB_PALS EQU const_value

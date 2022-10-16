@@ -9,6 +9,7 @@
 
 	INCBIN "gfx/pokemon/front/karen.pic", 0, 1 ; sprite dimensions
 	dw KarenPicFront, KarenPicBack
+	; dw KarenPicFront, KarenPicBack
 
 	db SCREECH, LEER, SCRATCH, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
@@ -17,4 +18,4 @@
 	tmhm
 	; end
 
-	db 0 ; padding
+	db BANK(KarenPicFront)

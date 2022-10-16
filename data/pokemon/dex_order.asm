@@ -30,7 +30,7 @@ PokedexOrder:
 	db DEX_BLASTOISE
 	db DEX_PINSIR
 	db DEX_TANGELA
-	db 0 ; MISSINGNO.
+	db DEX_KAREN
 	db 0 ; MISSINGNO.
 	db DEX_GROWLITHE
 	db DEX_ONIX
@@ -191,5 +191,5 @@ PokedexOrder:
 	db DEX_WEEPINBELL
 	db DEX_VICTREEBEL
 	db 0 ; MISSINGNO.
-	db DEX_KAREN
+
 	assert_table_length NUM_POKEMON_INDEXES

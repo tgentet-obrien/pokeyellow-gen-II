@@ -75,5 +75,5 @@ MonPartyData:
 	dn ICON_BIRD,      ICON_BIRD      ; Zapdos / Moltres
 	dn ICON_SNAKE,     ICON_SNAKE     ; Dratini / Dragonair
 	dn ICON_SNAKE,     ICON_MON       ; Dragonite / Mewtwo
-	dn ICON_MON,       0              ; Mew / padding
+	dn ICON_MON,       ICON_FAIRY     ; Mew / Karen
 	assert_table_length (NUM_POKEMON + 1) / 2
